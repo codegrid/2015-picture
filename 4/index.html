@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>picture要素</title>
+<style>
+body { margin: 0; }
+</style>
+</head>
+<body>
+
+<h1>sizes属性なし</h1>
+
+<img src="./img/default.jpg"
+     srcset="./img/large.jpg 1600w, ./img/medium.jpg 800w, ./img/small.jpg 400w"
+     alt="画像の説明">
+
+<h1>sizes属性値に100vwのみを指定</h1>
+
+<img src="./img/default.jpg"
+     srcset="./img/large.jpg 1600w, ./img/medium.jpg 800w, ./img/small.jpg 400w"
+     sizes="100vw"
+     alt="画像の説明">
+
+</body>
+</html>
