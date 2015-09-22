@@ -1,0 +1,19 @@
+#info {
+  min-width: 320px;
+  padding: 5px;
+  margin: 0;
+  height: 70px;
+  overflow: scroll;
+  background-color: #000;
+  color: #fff;
+}
+#info li {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  list-style: inside circle;
+}
+#info b {
+  color: lime;
+  padding: 0 5px;
+}
